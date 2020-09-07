@@ -33,7 +33,7 @@ puts load_library(path)
 
 
 def get_japanese_emoticon(path, emoticon)
-  # hash = load_library(path)
+  hash = load_library(path)
   
   
   # code goes here
