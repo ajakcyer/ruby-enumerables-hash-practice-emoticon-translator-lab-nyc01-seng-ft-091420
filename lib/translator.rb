@@ -41,7 +41,7 @@ def get_japanese_emoticon(path, input)
     if eng_jap[:english] == input
       return translation = eng_jap[:japanese]
     end
-    binding.pry
+    # binding.pry
   end
   
   # code goes here
