@@ -32,9 +32,14 @@ puts load_library(path)
 
 
 
-def get_japanese_emoticon(path, emoticon)
-  hash = load_library(path)
+def get_japanese_emoticon(path, input)
+  meaning = load_library(path)
   
+  translation =
+  
+  meaning.each do |emoticon_name, eng_jap|
+    binding.pry
+  end
   
   # code goes here
 end
