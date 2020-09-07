@@ -39,7 +39,8 @@ def get_japanese_emoticon(path, input)
   
   meaning.each do |emoticon_name, eng_jap|
     if eng_jap[:english] == input
-      return eng_jap[:japanese]
+      return translation = eng_jap[:japanese]
+    end
     binding.pry
   end
   
