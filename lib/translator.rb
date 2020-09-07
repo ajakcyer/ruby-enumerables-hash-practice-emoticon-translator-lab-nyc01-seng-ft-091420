@@ -38,6 +38,7 @@ def get_japanese_emoticon(path, input)
   translation =
   
   meaning.each do |emoticon_name, eng_jap|
+    
     binding.pry
   end
   
